@@ -6,7 +6,7 @@ import ScreenQuestions from "./Components.js/ScreenQuestions";
 
 
 function App () {
-    const [condition, setCondition] = React.useState("init");
+    const [condition, setCondition] = React.useState("page2");
 
     return (
         <>

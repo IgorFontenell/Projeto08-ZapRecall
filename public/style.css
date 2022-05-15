@@ -52,8 +52,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .title {
@@ -62,7 +60,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     margin-top: 50px;
     margin-bottom: 25px;
 }
@@ -88,4 +85,55 @@ h1 {
     font-size: 28px;
     font-weight: bold;
     
+}
+.yellowCard {
+    width: 299px;
+    height: 131px;
+    background-color: #ffffd4;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 5px;
+    margin: 25px 0px;
+}
+.yellowCard .back {
+    flex-direction: column;
+}
+
+.yellowCard span {
+    color: #333333;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+    
+}
+
+.yellowCard img {
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.answers {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+
+}
+.answers div {
+    width: 86px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.answers span {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #FFFFFF;
 }
