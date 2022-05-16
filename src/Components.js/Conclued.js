@@ -40,11 +40,16 @@ function Result ( { wrongCounter } ) {
                 <span>Você não esqueceu de nenhum flashcard!!</span>
                 </>
                 );
-    } else { <div className="conclusao">
-                <img src="./Imagens/sad.png" alt="Imagem carregando.." width="16" />
-                <span>Putz...</span>
+    } else { 
+        return (
+                <>
+                <div className="conclusao">
+                    <img src="./Imagens/sad.png" alt="Imagem carregando.." width="16" />
+                    <span>Putz...</span>
+                </div>
                 <span>Ainda faltam alguns... Mas não desanime</span>
-            </div>
+                </>
+                );
     }
 
 
