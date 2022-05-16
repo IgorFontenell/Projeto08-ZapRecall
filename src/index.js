@@ -5,13 +5,23 @@ import ScreenQuestions from "./Components.js/ScreenQuestions";
 
 
 
-function App () {
-    const [condition, setCondition] = React.useState("page2");
 
+
+   
+
+  
+
+function App () {
+
+    
+    const [condition, setCondition] = React.useState("init"); //Lembrar de mudar para init
+    const [counter, setCounter] = React.useState([]);
+    
     return (
         <>
           {
-              (condition === "init") ? <InitialScreen setCondition={setCondition} /> : <ScreenQuestions />
+              (condition === "init") ? <InitialScreen setCondition={setCondition} /> :  <ScreenQuestions counter={counter} setCounter={setCounter} /> 
+                                                                                        
           }
         </>
         
